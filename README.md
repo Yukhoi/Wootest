@@ -9,7 +9,7 @@
 
 ### Step 2:
 To filter out unnecessary information, I used a DTO pattern for the API response:
-I implemented a DTO pattern by creating a data transfer object that only returns essential fields, modified the API code to transform database models into this DTO format before sending responses, and verified the returned data matches the expected schema containing only id, title and description fields.
+I implemented a DTO pattern by creating a data transfer object that only returns essential fields, modified the API code to transform database models into this DTO format before sending responses, and verified the returned data matches the expected schema containing only id, title, code and description fields.
 
 ### Step 3：
 To implement unique course codes, I added the following features:
